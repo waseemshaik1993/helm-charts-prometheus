@@ -4,15 +4,15 @@
 
 ## Provide a name in place of kube-prometheus-stack for `app:` labels
 ##
-nameOverride: "prometehus"
+nameOverride: ""
 
 ## Override the deployment namespace
 ##
-namespaceOverride: "prometheus-stack"
+namespaceOverride: ""
 
 ## Provide a k8s version to auto dashboard import script example: kubeTargetVersionOverride: 1.16.6
 ##
-kubeTargetVersionOverride: "1.16.6"
+kubeTargetVersionOverride: ""
 
 ## Allow kubeVersion to be overridden while creating the ingress
 ##
